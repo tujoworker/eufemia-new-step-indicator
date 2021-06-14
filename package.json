@@ -1,0 +1,33 @@
+{
+  "name": "eufemia-new-step-indicator",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@dnb/eufemia": "https://pkg.csb.dev/dnbexperience/eufemia/commit/f8a5618f/@dnb/eufemia",
+    "@emotion/react": "11.4.0",
+    "@emotion/styled": "11.3.0",
+    "@types/react": "17.0.11",
+    "@types/react-dom": "17.0.7",
+    "react": "17.0.2",
+    "react-app-polyfill": "2.0.0",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "typescript": "4.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
